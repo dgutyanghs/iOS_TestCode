@@ -1,0 +1,5 @@
+* iOS 测试代码
+** Https: iPhone连接https服务器Demo代码
+*** 1.先从网站下载xxx.cer证书,将证书拖进xcode工程中. 
+*** 2.AFNetworking 初始化证书.  
+*** 3.info.plist 设置相关项
