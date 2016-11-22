@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082504361D88EA4A00CB427E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 082504351D88EA4A00CB427E /* main.m */; };
+		082504391D88EA4A00CB427E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 082504381D88EA4A00CB427E /* AppDelegate.m */; };
+		0825043C1D88EA4A00CB427E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0825043B1D88EA4A00CB427E /* ViewController.m */; };
+		0825043F1D88EA4A00CB427E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0825043D1D88EA4A00CB427E /* Main.storyboard */; };
+		082504411D88EA4A00CB427E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082504401D88EA4A00CB427E /* Assets.xcassets */; };
+		082504441D88EA4A00CB427E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082504421D88EA4A00CB427E /* LaunchScreen.storyboard */; };
+		0825044F1D88EA4A00CB427E /* httpsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0825044E1D88EA4A00CB427E /* httpsTests.m */; };
+		0825045B1D88EA6D00CB427E /* HLHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0825045A1D88EA6D00CB427E /* HLHttpClient.m */; };
+		082504621D88EDF400CB427E /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0825045E1D88EDF400CB427E /* MBProgressHUD+MJ.m */; };
+		082504631D88EDF400CB427E /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0825045F1D88EDF400CB427E /* MBProgressHUD.bundle */; };
+		082504641D88EDF400CB427E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 082504611D88EDF400CB427E /* MBProgressHUD.m */; };
+		082504681D88EE6800CB427E /* HLAccountManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 082504671D88EE6800CB427E /* HLAccountManger.m */; };
+		08F5C0591DE4236800FCD2E5 /* Internet Widgits Pty Ltd.cer in Resources */ = {isa = PBXBuildFile; fileRef = 08F5C0581DE4236800FCD2E5 /* Internet Widgits Pty Ltd.cer */; };
+		08F5C05A1DE4236800FCD2E5 /* Internet Widgits Pty Ltd.cer in Resources */ = {isa = PBXBuildFile; fileRef = 08F5C0581DE4236800FCD2E5 /* Internet Widgits Pty Ltd.cer */; };
+		9E8F61E6CBB6421B48193BAF /* libPods-https.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F31CD73A921C42A880051A /* libPods-https.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0825044B1D88EA4A00CB427E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082504291D88EA4A00CB427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082504301D88EA4A00CB427E;
+			remoteInfo = https;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082504311D88EA4A00CB427E /* https.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = https.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082504351D88EA4A00CB427E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		082504371D88EA4A00CB427E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		082504381D88EA4A00CB427E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0825043A1D88EA4A00CB427E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0825043B1D88EA4A00CB427E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0825043E1D88EA4A00CB427E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		082504401D88EA4A00CB427E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082504431D88EA4A00CB427E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		082504451D88EA4A00CB427E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0825044A1D88EA4A00CB427E /* httpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = httpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0825044E1D88EA4A00CB427E /* httpsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = httpsTests.m; sourceTree = "<group>"; };
+		082504501D88EA4A00CB427E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082504591D88EA6D00CB427E /* HLHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHttpClient.h; sourceTree = "<group>"; };
+		0825045A1D88EA6D00CB427E /* HLHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHttpClient.m; sourceTree = "<group>"; };
+		0825045D1D88EDF400CB427E /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		0825045E1D88EDF400CB427E /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		0825045F1D88EDF400CB427E /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		082504601D88EDF400CB427E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		082504611D88EDF400CB427E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		082504651D88EE0C00CB427E /* const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = const.h; sourceTree = "<group>"; };
+		082504661D88EE6800CB427E /* HLAccountManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAccountManger.h; sourceTree = "<group>"; };
+		082504671D88EE6800CB427E /* HLAccountManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAccountManger.m; sourceTree = "<group>"; };
+		08F5C0581DE4236800FCD2E5 /* Internet Widgits Pty Ltd.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Internet Widgits Pty Ltd.cer"; sourceTree = "<group>"; };
+		0E026F30D7655496E429ABD0 /* Pods-https.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-https.debug.xcconfig"; path = "Pods/Target Support Files/Pods-https/Pods-https.debug.xcconfig"; sourceTree = "<group>"; };
+		75F31CD73A921C42A880051A /* libPods-https.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-https.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC556FF9F4CE96107E8E964 /* Pods-https.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-https.release.xcconfig"; path = "Pods/Target Support Files/Pods-https/Pods-https.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0825042E1D88EA4A00CB427E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8F61E6CBB6421B48193BAF /* libPods-https.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082504471D88EA4A00CB427E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00165B9635C7A5BC109AF94A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75F31CD73A921C42A880051A /* libPods-https.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		082504281D88EA4A00CB427E = {
+			isa = PBXGroup;
+			children = (
+				0825045C1D88EDF400CB427E /* MBProgressHUD */,
+				082504331D88EA4A00CB427E /* https */,
+				0825044D1D88EA4A00CB427E /* httpsTests */,
+				082504321D88EA4A00CB427E /* Products */,
+				666DE28FEC9C75E066A865FE /* Pods */,
+				00165B9635C7A5BC109AF94A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		082504321D88EA4A00CB427E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082504311D88EA4A00CB427E /* https.app */,
+				0825044A1D88EA4A00CB427E /* httpsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		082504331D88EA4A00CB427E /* https */ = {
+			isa = PBXGroup;
+			children = (
+				082504591D88EA6D00CB427E /* HLHttpClient.h */,
+				0825045A1D88EA6D00CB427E /* HLHttpClient.m */,
+				082504371D88EA4A00CB427E /* AppDelegate.h */,
+				082504381D88EA4A00CB427E /* AppDelegate.m */,
+				0825043A1D88EA4A00CB427E /* ViewController.h */,
+				0825043B1D88EA4A00CB427E /* ViewController.m */,
+				0825043D1D88EA4A00CB427E /* Main.storyboard */,
+				082504401D88EA4A00CB427E /* Assets.xcassets */,
+				082504421D88EA4A00CB427E /* LaunchScreen.storyboard */,
+				082504451D88EA4A00CB427E /* Info.plist */,
+				082504341D88EA4A00CB427E /* Supporting Files */,
+			);
+			path = https;
+			sourceTree = "<group>";
+		};
+		082504341D88EA4A00CB427E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F5C0581DE4236800FCD2E5 /* Internet Widgits Pty Ltd.cer */,
+				082504661D88EE6800CB427E /* HLAccountManger.h */,
+				082504671D88EE6800CB427E /* HLAccountManger.m */,
+				082504651D88EE0C00CB427E /* const.h */,
+				082504351D88EA4A00CB427E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0825044D1D88EA4A00CB427E /* httpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0825044E1D88EA4A00CB427E /* httpsTests.m */,
+				082504501D88EA4A00CB427E /* Info.plist */,
+			);
+			path = httpsTests;
+			sourceTree = "<group>";
+		};
+		0825045C1D88EDF400CB427E /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0825045D1D88EDF400CB427E /* MBProgressHUD+MJ.h */,
+				0825045E1D88EDF400CB427E /* MBProgressHUD+MJ.m */,
+				0825045F1D88EDF400CB427E /* MBProgressHUD.bundle */,
+				082504601D88EDF400CB427E /* MBProgressHUD.h */,
+				082504611D88EDF400CB427E /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		666DE28FEC9C75E066A865FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E026F30D7655496E429ABD0 /* Pods-https.debug.xcconfig */,
+				EBC556FF9F4CE96107E8E964 /* Pods-https.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		082504301D88EA4A00CB427E /* https */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082504531D88EA4A00CB427E /* Build configuration list for PBXNativeTarget "https" */;
+			buildPhases = (
+				41660A31ACCEE389297ECA1B /* [CP] Check Pods Manifest.lock */,
+				0825042D1D88EA4A00CB427E /* Sources */,
+				0825042E1D88EA4A00CB427E /* Frameworks */,
+				0825042F1D88EA4A00CB427E /* Resources */,
+				44FA41613013A1648098E704 /* [CP] Embed Pods Frameworks */,
+				C200C53925330CB697135344 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = https;
+			productName = https;
+			productReference = 082504311D88EA4A00CB427E /* https.app */;
+			productType = "com.apple.product-type.application";
+		};
+		082504491D88EA4A00CB427E /* httpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082504561D88EA4A00CB427E /* Build configuration list for PBXNativeTarget "httpsTests" */;
+			buildPhases = (
+				082504461D88EA4A00CB427E /* Sources */,
+				082504471D88EA4A00CB427E /* Frameworks */,
+				082504481D88EA4A00CB427E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0825044C1D88EA4A00CB427E /* PBXTargetDependency */,
+			);
+			name = httpsTests;
+			productName = httpsTests;
+			productReference = 0825044A1D88EA4A00CB427E /* httpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082504291D88EA4A00CB427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlexYang;
+				TargetAttributes = {
+					082504301D88EA4A00CB427E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5UMZ2GBNFV;
+					};
+					082504491D88EA4A00CB427E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 082504301D88EA4A00CB427E;
+					};
+				};
+			};
+			buildConfigurationList = 0825042C1D88EA4A00CB427E /* Build configuration list for PBXProject "https" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 082504281D88EA4A00CB427E;
+			productRefGroup = 082504321D88EA4A00CB427E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				082504301D88EA4A00CB427E /* https */,
+				082504491D88EA4A00CB427E /* httpsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0825042F1D88EA4A00CB427E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082504441D88EA4A00CB427E /* LaunchScreen.storyboard in Resources */,
+				082504631D88EDF400CB427E /* MBProgressHUD.bundle in Resources */,
+				082504411D88EA4A00CB427E /* Assets.xcassets in Resources */,
+				08F5C0591DE4236800FCD2E5 /* Internet Widgits Pty Ltd.cer in Resources */,
+				0825043F1D88EA4A00CB427E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082504481D88EA4A00CB427E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F5C05A1DE4236800FCD2E5 /* Internet Widgits Pty Ltd.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41660A31ACCEE389297ECA1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44FA41613013A1648098E704 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-https/Pods-https-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C200C53925330CB697135344 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-https/Pods-https-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0825042D1D88EA4A00CB427E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0825045B1D88EA6D00CB427E /* HLHttpClient.m in Sources */,
+				082504641D88EDF400CB427E /* MBProgressHUD.m in Sources */,
+				082504621D88EDF400CB427E /* MBProgressHUD+MJ.m in Sources */,
+				0825043C1D88EA4A00CB427E /* ViewController.m in Sources */,
+				082504391D88EA4A00CB427E /* AppDelegate.m in Sources */,
+				082504681D88EE6800CB427E /* HLAccountManger.m in Sources */,
+				082504361D88EA4A00CB427E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082504461D88EA4A00CB427E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0825044F1D88EA4A00CB427E /* httpsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0825044C1D88EA4A00CB427E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082504301D88EA4A00CB427E /* https */;
+			targetProxy = 0825044B1D88EA4A00CB427E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0825043D1D88EA4A00CB427E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0825043E1D88EA4A00CB427E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		082504421D88EA4A00CB427E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082504431D88EA4A00CB427E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		082504511D88EA4A00CB427E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		082504521D88EA4A00CB427E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		082504541D88EA4A00CB427E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E026F30D7655496E429ABD0 /* Pods-https.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UMZ2GBNFV;
+				INFOPLIST_FILE = https/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.smartcoach.https;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		082504551D88EA4A00CB427E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC556FF9F4CE96107E8E964 /* Pods-https.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5UMZ2GBNFV;
+				INFOPLIST_FILE = https/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.smartcoach.https;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		082504571D88EA4A00CB427E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = httpsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.smartcoach.httpsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/https.app/https";
+			};
+			name = Debug;
+		};
+		082504581D88EA4A00CB427E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = httpsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.smartcoach.httpsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/https.app/https";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0825042C1D88EA4A00CB427E /* Build configuration list for PBXProject "https" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082504511D88EA4A00CB427E /* Debug */,
+				082504521D88EA4A00CB427E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082504531D88EA4A00CB427E /* Build configuration list for PBXNativeTarget "https" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082504541D88EA4A00CB427E /* Debug */,
+				082504551D88EA4A00CB427E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082504561D88EA4A00CB427E /* Build configuration list for PBXNativeTarget "httpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082504571D88EA4A00CB427E /* Debug */,
+				082504581D88EA4A00CB427E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082504291D88EA4A00CB427E /* Project object */;
+}
